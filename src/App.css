@@ -23,6 +23,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* App.css */
+.info-card {
+  background-color: #f8f9fa;
+  border: 1px solid rgba(0,0,0,.125);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.info-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 .App-link {
   color: #61dafb;
